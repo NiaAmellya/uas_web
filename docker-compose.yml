@@ -20,7 +20,7 @@ services:
     build:
       context: '.'
       dockerfile: Dockerfile
-    container_name: web-native
+    container_name: web-uas
     ports:
       - 8090:80
     volumes:
